@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thầy Đinh Quốc Đạt - Trang học tập</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #eef2f3, #ffffff);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    nav {
+      background-color: #0072ff;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background-color: #005fcc;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    footer {
+      background-color: #0072ff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    .avatar {
+      width: 140px;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    h2 {
+      color: #0072ff;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .resource-link {
+      color: #0072ff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .resource-link:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/140" alt="Ảnh giáo viên" class="avatar">
+    <h1>Thầy Đinh Quốc Đạt</h1>
+    <p>Trường THCS - THPT Nguyễn Khuyến, Thủ Đức</p>
+    <p>327 Quốc lộ 13, đường số 3, Khu phố 31, Phường Hiệp Bình Phước, TP. Thủ Đức, TP. Hồ Chí Minh</p>
+  </header>
+
+  <nav>
+    <a href="#about">Giới thiệu</a>
+    <a href="#schedule">Lịch học</a>
+    <a href="#resources">Tài liệu</a>
+    <a href="#honor">Vinh danh</a>
+    <a href="#news">Tin tức</a>
+    <a href="#faq">Hỏi đáp</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+
+  <section id="about">
+    <div class="card">
+      <h2>Giới thiệu</h2>
+      <p>Tôi là thầy Đinh Quốc Đạt, giáo viên môn Toán tại Trường THCS - THPT Nguyễn Khuyến. Với hơn 10 năm kinh nghiệm giảng dạy, tôi luôn hướng đến việc khơi dậy đam mê học tập và phát triển tư duy phản biện cho học sinh THCS và THPT.</p>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <div class="card">
+      <h2>Lịch học</h2>
+      <ul>
+        <li>📅 Thứ 2 - 7h: Lớp 12A1 (Chuyên đề Lượng giác)</li>
+        <li>📅 Thứ 3 - 9h: Lớp 11B2 (Ôn thi giữa kỳ)</li>
+        <li>📅 Thứ 5 - 13h30: Bồi dưỡng học sinh giỏi khối 12</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="resources">
+    <div class="card">
+      <h2>Tài liệu học tập</h2>
+      <ul>
+        <li><a href="#" class="resource-link">📘 Chuyên đề Tích phân nâng cao (PDF)</a></li>
+        <li><a href="#" class="resource-link">📝 Đề thi thử THPT Quốc Gia 2025 (Word)</a></li>
+        <li><a href="#" class="resource-link">📊 Tổng hợp công thức giải nhanh (PDF)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="honor">
+    <div class="card">
+      <h2>🏆 Góc vinh danh</h2>
+      <ul>
+        <li>🎉 Trần Minh Khoa – Giải Nhì Toán quốc gia 2024</li>
+        <li>🎉 Lê Hương Giang – Thủ khoa đầu vào khối A00 ĐH Bách Khoa</li>
+        <li>🎉 98% học sinh lớp 12A1 đạt điểm Toán trên 8.0</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="news">
+    <div class="card">
+      <h2>📰 Tin tức & Thông báo</h2>
+      <ul>
+        <li>📢 Lịch thi HK2 cập nhật ngày 5/6/2025</li>
+        <li>📢 Ngày hội Toán học - Cuộc thi giải nhanh sẽ diễn ra vào 20/6/2025</li>
+        <li>📢 Tải app luyện tập Toán: <a href="#">Link tại đây</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="card">
+      <h2>❓ Câu hỏi thường gặp</h2>
+      <ul>
+        <li><strong>Hỏi:</strong> Làm sao để đăng ký lớp học thêm?<br><strong>Đáp:</strong> Liên hệ trực tiếp qua số điện thoại hoặc form liên hệ bên dưới.</li>
+        <li><strong>Hỏi:</strong> Tài liệu có cần in không?<br><strong>Đáp:</strong> Không bắt buộc, nhưng nên in để ghi chú thuận tiện.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Liên hệ</h2>
+      <p>📧 Email: <a href="mailto:dinhquocdat.teacher@gmail.com">dinhquocdat.teacher@gmail.com</a></p>
+      <p>📞 SĐT: 0909 999 888</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Thiết kế bởi Thầy Đinh Quốc Đạt - Trường THCS - THPT Nguyễn Khuyến</p>
+  </footer>
+</body>
+</html>
